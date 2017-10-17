@@ -44,10 +44,10 @@ setUpApiRoutes(app);
 setUpHtmlRoutes(app);
 
 // handling the upload
-// getting the file from ifound.html
-// app.get('/', function(req, res) {
-// 	res.sendFile(path.join(__dirname, '/views', 'ifound.html'));
-// });
+getting the file from ifound.html
+app.get('/', function(req, res) {
+	res.sendFile(path.join(__dirname, '/views', 'ifound.html'));
+});
 
 // placeholder for getting the file from ilost.html
 app.post('/upload', function(req, res) {
